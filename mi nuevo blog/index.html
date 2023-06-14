@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi Blog Personal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="Header">
+
+    <img src="./img/pin.svg" class="logo" alt="">
+
+    <input type="checkbox" id="menu" />
+
+    <label for="menu">
+      <img src="./img/menu.svg" class="menu-icon" alt="">
+    </label>
+
+    <ul class="menu">
+      <li class="item">Inicio</li>
+      <li class="item">Portafolio</li>
+      <li class="item">Contacto</li>
+      <li class="btn">Login</li>
+    </ul>
+
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Mi Blog Personal</h1>
+      <p>Bienvenido a mi blog sobre desarrollo web.</p>
+      <a href="#" class="btn">Ver Artículos</a>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <img src="https://picsum.photos/id/62/400/250" alt="Card Image">
+      <div class="card-content">
+        <h3>Por qué usar React</h3>
+        <p>React es un framework de JavaScript para construir interfaces de usuario.</p>
+        <a href="#" class="btn">Leer más</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/id/892/400/250" alt="Card Image">
+      <div class="card-content">
+        <h3>5 consejos para hacer que tu sitio web sea más rápido</h3>
+        <p>Mejora la velocidad de carga de tu sitio con estos consejos fáciles de implementar.</p>
+        <a href="#" class="btn">Leer más</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://picsum.photos/id/1079/400/250" alt="Card Image">
+      <div class="card-content">
+        <h3>Cómo construir una API REST con Node.js</h3>
+        <p>Aprende a construir una API REST que se integra con una base de datos MongoDB utilizando Node.js.</p>
+        <a href="#" class="btn">Leer más</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Suscríbete a mi boletín</h2>
+    <p>Recibe actualizaciones sobre mis últimos artículos directamente en tu buzón de correo electrónico.</p>
+    <form>
+      <input type="email" name="email" placeholder="Tu correo electrónico">
+      <input type="submit" value="Suscribirse">
+    </form>
+  </section>
+
+  <footer>
+    <p>Derechos de autor © 2023 - Mi Blog Personal</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
